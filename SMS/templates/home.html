@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS - Sheleter Made Safer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+        <h1>AirBNB Price Prediction</h1>
+        <div style="color:red;"> {{ msg }} </div>
+        <form method="POST" action="/" class="login-form">
+            {{ form.csrf_token }}
+            {{ form.neighbourhood(placeholder="neighborhood") }}
+            {{ form.guests(placeholder="guests") }}
+            {{ form.bathrooms(placeholder="bathrooms") }}
+            {{ form.accommodates(placeholder="accomodates") }}
+            {{ form.bedrooms(placeholder="bedrooms") }}
+            {{ form.beds(placeholder="beds") }}
+            {{ form.cancellation_policy(placeholder="cancellation_policy") }}
+            {{ form.property_type(placeholder="property type") }}
+            {{ form.room_type(placeholder="room_type") }}
+            {{ form.submit(class_="form-submit") }}
+        </form>
+    </div>
+</div>
+</body>
+</html>
