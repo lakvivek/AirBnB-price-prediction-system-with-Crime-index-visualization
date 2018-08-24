@@ -26,7 +26,7 @@ A. Step to Run this application:
 	* Run the container in interactive mode. [Run] ``` make run-interactive ```
 
 3. Open 127.0.0.1:5000 in your browser.
-4. To remove the existing containers. [Run] ``` make clean ```
+4. To remove the existing containers. [Run] ``` make clean ``` (Caution: Do this only if you have to delete your containers)
 
 
 B. Misc: 
