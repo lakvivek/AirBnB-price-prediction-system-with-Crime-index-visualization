@@ -22,8 +22,9 @@ A. Step to Run this application:
 
 1. Build Docker image [Run] ``` make build ```
 2. Run the container.
-	a. Run the container in detached mode. [Run] ``` make run-detached ``` (Recommended mode)
-	b. Run the container in interactive mode. [Run] ``` make run-interactive ```
+	* Run the container in detached mode. [Run] ``` make run-detached ``` (Recommended mode)
+	* Run the container in interactive mode. [Run] ``` make run-interactive ```
+
 3. Open 127.0.0.1:5000 in your browser.
 4. To remove the existing containers. [Run] ``` make clean ```
 
