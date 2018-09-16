@@ -1,3 +1,6 @@
+help:
+	@echo targets are: build run-interactive run-detached clean help
+
 build:
 	docker build -t sms .
 
