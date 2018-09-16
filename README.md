@@ -20,17 +20,17 @@ Prerequisites:
 
 A. Step to Run this application: 
 
-1. Build Docker image [Run] ``` make build ```
+1. Build Docker image [Run cmd] ``` make build ```
 2. Run the container.
-	* Run the container in detached mode. [Run] ``` make run-detached ``` (Recommended mode)
-	* Run the container in interactive mode. [Run] ``` make run-interactive ```
+	* Run the container in detached mode. [Run cmd] ``` make run-detached ``` (Recommended mode)
+	* Run the container in interactive mode. [Run cmd] ``` make run-interactive ```
 
 3. Open 127.0.0.1:5000 in your browser.
-4. To remove the existing containers. [Run] ``` make clean ```
+4. To remove the existing containers. [Run cmd] ``` make clean ``` (Caution: Do this only if you have to delete your containers)
 
 
 B. Misc: 
-1. To check the running containers [Run] ``` docker ps  ```
+1. To check the running containers [Run cmd] ``` docker ps  ```
     If you couldn't find sms_detached or sms_interactive containers then there should be some error and the contianer should be exited. To check exited container run ``` docker ps -a  ```
 2. To debug the process run in interactive mode. (GOTO step A:2b)
 
